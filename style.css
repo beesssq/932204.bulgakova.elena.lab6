@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.form {
+    margin: 0 auto;
+    width: 600px;
+    height: 100%;
+}
+
+.panel {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    flex: 1;
+    margin: 0;
+    padding: 10px 0;
+    border: 1px solid black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.cat, .dog {
+    height: 400px;
+    width: 50%;
+    float: left;
+}
+
+.cat {
+    background-color: blue;
+}
+
+.dog {
+    background-color: green;
+}
+
+img {
+    display: block;
+    margin: 15px auto;
+    height: 300px;
+    width: 270px;
+}
